@@ -1,0 +1,22 @@
+[project]
+name = "logsense-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faiss-cpu==1.11.0",
+    "fastapi==0.115.12",
+    "fastembed==0.7.1",
+    "jinja2==3.1.6",
+    "jsonpatch==1.33",
+    "langchain==0.3.25",
+    "langchain-community==0.3.24",
+    "langchain-core==0.3.59",
+    "langchain-groq==0.3.2",
+    "langchain-text-splitters==0.3.8",
+    "pydantic==2.11.4",
+    "python-dotenv==1.0.1",
+    "python-multipart==0.0.20",
+    "uvicorn[standard]==0.34.2",
+]
